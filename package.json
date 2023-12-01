@@ -1,0 +1,29 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "A library to colorify your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build":"tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chickisnak/coders-colorify.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Akhand Pratap Singh<pratapsinghakhand24@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chickisnak/coders-colorify/issues"
+  },
+  "homepage": "https://github.com/Chickisnak/coders-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  },
+  "files": ["lib/**/*"]
+}
